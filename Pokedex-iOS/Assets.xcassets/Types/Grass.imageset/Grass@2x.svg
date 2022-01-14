@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Grass@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5FBC51" offset="0%"></stop>
+            <stop stop-color="#5AC178" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.392156863   0 0 0 0 0.725490196   0 0 0 0 0.329411765  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Grass" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M14.2725992,8 C18.9186225,11.6658327 21.2416341,14.6255603 21.2416341,16.8791829 C21.2416341,19.8815327 19.0799663,22.3789979 16.2281113,22.900098 L15.9196767,19.8735532 L17.6229795,17.2322592 L15.6724679,18.8282227 L15.6519626,16.5538856 L16.6537372,14.990099 L15.3389845,15.7040295 L14.5234846,12.8598464 L14.6990239,15.9210058 L13.3556357,15.6919379 L14.8499065,16.7939298 L14.9778615,18.931738 L13.0787248,17.9642892 L14.9848372,19.8704015 L15.312,22.996 L15.1208171,23 C11.8155039,23 9.12211088,20.3800584 9.00403678,17.1035739 L9,16.8791829 C9,14.6255603 10.7575331,11.6658327 14.2725992,8 Z" id="Oval" fill="#FFFFFF" transform="translate(15.120817, 15.500000) rotate(45.000000) translate(-15.120817, -15.500000) "></path>
+        </g>
+    </g>
+</svg>

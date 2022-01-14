@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Normal@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7107117%" id="linearGradient-1">
+            <stop stop-color="#9298A4" offset="0%"></stop>
+            <stop stop-color="#A3A49E" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.364705882   0 0 0 0 0.349019608   0 0 0 0 0.415686275  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Normal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M15,8 C18.8659932,8 22,11.1340068 22,15 C22,18.8659932 18.8659932,22 15,22 C11.1340068,22 8,18.8659932 8,15 C8,11.1340068 11.1340068,8 15,8 Z M15,11 C12.790861,11 11,12.790861 11,15 C11,17.209139 12.790861,19 15,19 C17.209139,19 19,17.209139 19,15 C19,12.790861 17.209139,11 15,11 Z" id="Oval-11" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

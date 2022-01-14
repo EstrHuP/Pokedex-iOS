@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Steel</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#52869D" offset="0%"></stop>
+            <stop stop-color="#58A6AA" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.31372549   0 0 0 0 0.580392157   0 0 0 0 0.631372549  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Steel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M18.5771946,9 C18.71013,9 18.8329913,9.07084063 18.8995903,9.18589012 L18.8995903,9.18589012 L22.448676,15.3169226 C22.5155357,15.4324225 22.515501,15.5748644 22.4485849,15.6903317 L22.4485849,15.6903317 L18.8996203,21.814267 C18.8329977,21.9292279 18.7101861,22 18.5773156,22 L18.5773156,22 L11.4608423,22 C11.32861,22 11.2062882,21.9299006 11.1394375,21.8158113 L11.1394375,21.8158113 L7.55111133,15.6918752 C7.48299593,15.5756275 7.48296064,15.4316589 7.55101905,15.3153779 L7.55101905,15.3153779 L11.1394665,9.18434626 C11.2062942,9.07016799 11.3286661,9 11.4609636,9 L11.4609636,9 Z M15,12 C13.0670034,12 11.5,13.5670034 11.5,15.5 C11.5,17.4329966 13.0670034,19 15,19 C16.9329966,19 18.5,17.4329966 18.5,15.5 C18.5,13.5670034 16.9329966,12 15,12 Z" id="Path-7" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

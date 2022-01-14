@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Ghost@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7107117%" id="linearGradient-1">
+            <stop stop-color="#516AAC" offset="0%"></stop>
+            <stop stop-color="#7773D4" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.396078431   0 0 0 0 0.423529412   0 0 0 0 0.776470588  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Ghost" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M15,8 C18.8659932,8 22,11.0703446 22,14.8578066 C22,16.6193277 21.3220791,18.2257282 20.2078919,19.4402622 C19.6086228,20.0935033 21.8249099,20.3604297 21.3318181,21.0351046 C21.0628145,21.4031701 19.6044771,21.8739267 18.0885434,21.9515212 C16.8257254,22.0161596 15.3799735,22.0161596 14.8886483,21.9515212 C11.0562157,21.4473286 8,18.6452686 8,14.8578066 C8,11.0703446 11.1340068,8 15,8 Z M13.3393791,14.0005808 C12.8186559,14.0005808 12.3943256,13.5878738 12.3756417,13.0717133 C12.0492258,13.2558681 11.828125,13.6029285 11.828125,14.0005808 C11.828125,14.5923717 12.3178136,15.0721131 12.921875,15.0721131 C13.5259364,15.0721131 14.015625,14.5923717 14.015625,14.0005808 L13.3393791,14.0005808 Z M17.4045904,13.0714618 L17.40625,13.0362017 C17.40625,13.5688136 16.9744828,14.0005808 16.4418709,14.0005808 L15.765625,14.0005808 L15.765625,14.0005808 C15.765625,14.5923717 16.2553136,15.0721131 16.859375,15.0721131 C17.4634364,15.0721131 17.953125,14.5923717 17.953125,14.0005808 C17.953125,13.6032918 17.732428,13.2565023 17.4045904,13.0714618 Z" id="Oval-10" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

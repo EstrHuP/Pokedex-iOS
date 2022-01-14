@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Dark@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7107117%" id="linearGradient-1">
+            <stop stop-color="#595761" offset="0%"></stop>
+            <stop stop-color="#6E7587" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.364705882   0 0 0 0 0.349019608   0 0 0 0 0.415686275  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M15,22 C18.8659932,22 22,18.8659932 22,15 C22,11.1340068 18.8659932,8 15,8 C11.1340068,8 8,11.1340068 8,15 C8,18.8659932 11.1340068,22 15,22 Z M15.0972222,9.75 C18.0504115,9.75 20.4444444,12.1440329 20.4444444,15.0972222 C20.4444444,18.0504115 18.0504115,20.4444444 15.0972222,20.4444444 C14.8199275,20.4444444 14.5475625,20.4233372 14.2816465,20.3826418 C15.8741219,19.3045854 16.9444444,17.2977398 16.9444444,15 C16.9444444,12.8141173 15.9757949,10.891496 14.5107346,9.7816503 C14.703249,9.76078844 14.8989757,9.75 15.0972222,9.75 Z" id="Oval-7" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

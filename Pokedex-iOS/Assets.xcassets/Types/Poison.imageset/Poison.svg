@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Poison</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A864C7" offset="0%"></stop>
+            <stop stop-color="#C261D4" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.639215686   0 0 0 0 0.419607843   0 0 0 0 0.796078431  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Poison" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M15.5,8 C19.6421356,8 23,10.9637135 23,14.6196393 C23,16.5658413 22.0484224,18.3158787 20.5335172,19.527075 C20.5972721,19.7866086 20.6315789,20.0640015 20.6315789,20.3521443 C20.6315789,21.8145146 19.7479304,23 18.6578947,23 C18.011838,23 17.4382819,22.5835564 17.0782355,21.9398439 C16.7196128,22.5835564 16.1460568,23 15.5,23 C14.7912876,23 14.1698203,22.4988648 13.8217401,21.7463189 C13.4749166,22.4988648 12.8534493,23 12.1447368,23 C11.0547012,23 10.1710526,21.8145146 10.1710526,20.3521443 C10.1710526,20.0141793 10.218249,19.6910029 10.3042818,19.3938307 C8.88433269,18.1896897 8,16.4958156 8,14.6196393 C8,10.9637135 11.3578644,8 15.5,8 Z M15.4013158,11.3901711 C12.9487355,11.3901711 10.9605263,12.8948256 10.9605263,14.750911 C10.9605263,16.6069965 12.9487355,18.111651 15.4013158,18.111651 C17.8538961,18.111651 19.8421053,16.6069965 19.8421053,14.750911 C19.8421053,12.8948256 17.8538961,11.3901711 15.4013158,11.3901711 Z" id="Oval-3" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Ice</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#70CCBD" offset="0%"></stop>
+            <stop stop-color="#8CDDD4" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.494117647   0 0 0 0 0.831372549   0 0 0 0 0.788235294  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Ice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-2" transform="translate(6.500000, 6.500000)" fill="#FFFFFF">
+                <polygon id="Polygon" transform="translate(10.740132, 4.617434) rotate(31.000000) translate(-10.740132, -4.617434) " points="10.6895402 0.819281928 13.091908 4.71627283 10.6566447 8.41558512 8.38835639 4.73609077"></polygon>
+                <polygon id="Polygon" transform="translate(12.703369, 8.639453) rotate(89.000000) translate(-12.703369, -8.639453) " points="12.6819262 4.68640375 14.8733951 8.67777607 12.5403403 12.5925013 10.5333438 8.60405948"></polygon>
+                <polygon id="Polygon-Copy" transform="translate(4.092980, 8.639453) rotate(89.000000) translate(-4.092980, -8.639453) " points="4.07153662 4.68640375 6.26300544 8.67777607 3.92995072 12.5925013 1.92295423 8.60405948"></polygon>
+                <polygon id="Polygon" transform="translate(6.103762, 4.511175) rotate(-32.000000) translate(-6.103762, -4.511175) " points="6.05317013 0.71302349 8.45553794 4.61001439 6.02027457 8.30932669 3.7519863 4.62983233"></polygon>
+                <polygon id="Polygon" transform="translate(10.708997, 12.517570) rotate(148.000000) translate(-10.708997, -12.517570) " points="10.6584053 8.71941836 13.0607731 12.6164093 10.6255097 16.3157216 8.35722144 12.6362272"></polygon>
+                <polygon id="Polygon" transform="translate(6.102653, 12.471272) rotate(211.000000) translate(-6.102653, -12.471272) " points="6.0520614 8.67312005 8.4544292 12.570111 6.01916584 16.2694232 3.75087756 12.5899289"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

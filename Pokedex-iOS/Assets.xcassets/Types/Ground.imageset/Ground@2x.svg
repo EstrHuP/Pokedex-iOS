@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Ground@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7107117%" id="linearGradient-1">
+            <stop stop-color="#DC7545" offset="0%"></stop>
+            <stop stop-color="#D29463" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.847058824   0 0 0 0 0.509803922   0 0 0 0 0.333333333  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Ground" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M12.5288752,12.2871307 C12.5522309,12.2871307 12.5754081,12.2911988 12.5973678,12.2991525 C12.7018065,12.3369799 12.7558056,12.4523094 12.7179782,12.5567481 L12.7179782,12.5567481 L10.0700905,19.8673678 C10.041257,19.946975 9.96565549,20 9.88098748,20 L9.88098748,20 L7.69778518,20 C7.67369351,20 7.64979781,19.9956716 7.62723687,19.9872209 C7.52321639,19.9482582 7.47047668,19.8323474 7.50943944,19.7283269 L7.50943944,19.7283269 L10.2477646,12.4177072 C10.277182,12.3391702 10.3522447,12.2871307 10.4361103,12.2871307 L10.4361103,12.2871307 Z M18.6219691,9 C18.7075244,9 18.7837156,9.05412494 18.8118819,9.13491089 L18.8118819,9.13491089 L22.4918963,19.6898256 C22.4993181,19.7111126 22.5031082,19.7334959 22.5031082,19.7560396 C22.5031082,19.8671177 22.4130616,19.9571643 22.3019834,19.9571643 L22.3019834,19.9571643 L10.8059002,19.9571643 C10.8008849,19.9571643 10.7959064,19.9563094 10.7911785,19.9546361 C10.7682045,19.9465056 10.7561716,19.9212904 10.7643022,19.8983164 L10.7643022,19.8983164 L14.5738298,9.13402409 C14.6022582,9.05369594 14.6782209,9 14.7634311,9 L14.7634311,9 Z" id="Path-6" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

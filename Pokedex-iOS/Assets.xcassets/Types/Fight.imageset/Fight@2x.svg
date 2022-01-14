@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Types/Fight@2x</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.7107117%" id="linearGradient-1">
+            <stop stop-color="#CE4265" offset="0%"></stop>
+            <stop stop-color="#E74347" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.266666667   0 0 0 0 0.364705882  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Types/Fight" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 5.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <path d="M11.6909091,8 C12.2734701,8 12.7857105,8.30107864 13.0805153,8.75612111 L13.2181818,8.75 L13.2181818,8.75 C13.3254129,8.75 13.4302615,8.76020091 13.5318101,8.77968525 C13.83335,8.45432587 14.2655409,8.25 14.7454545,8.25 C15.4267819,8.25 16.0119233,8.66182124 16.2655366,9.25012165 L16.2727273,9.25 C16.3904861,9.25 16.5053716,9.26230224 16.6161686,9.28569161 C16.8800444,9.10561702 17.2004154,9 17.5454545,9 C18.2607528,9 18.8700344,9.4539118 19.1009703,10.0894065 C19.2263417,10.1322039 19.3452104,10.1900285 19.4551891,10.2605114 C19.7112027,10.095613 20.0171628,10 20.3454545,10 C21.2592348,10 22,10.7407652 22,11.6545455 L22,16.6491225 L21.9998419,16.6683003 C21.9742721,20.1691867 18.8501324,23 15,23 C11.1340068,23 8,20.1458153 8,16.625 C8,14.9301991 8.72619093,13.3898653 9.91065411,12.2479961 C9.89978414,14.4965897 9.95419523,15.6062694 10.0745348,15.5788405 C10.3287446,15.5208988 10.3330147,13.4104011 10.0873451,9.2473473 C10.2686606,8.53014649 10.9178737,8 11.6909091,8 Z" id="Oval-9" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
