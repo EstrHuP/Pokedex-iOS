@@ -44,14 +44,18 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "listPokemonCell")!
-        
-        let object = listPokemonVM.dataArray[indexPath.row]
-        
-        cell.textLabel?.text = object.name
-        cell.detailTextLabel?.text = object.id.description
-        
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonListCell", for: indexPath) as? PokemonCell {
+            
+            let object = listPokemonVM.dataArray[indexPath.row]
+            
+            cell.ui_pokemonId_lbl.text = "#\(object.number)"
+            cell.ui_pokemonName_lbl.text = object.name
+            cell.ui_pokemonImage_iv.load(urlString: object.ThumbnailImage)
+            
+            return cell
+        } else {
+            return UITableViewCell()
+        }
     }
 }
 

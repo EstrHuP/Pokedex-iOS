@@ -35,8 +35,8 @@ class ListPokemonViewModel {
             if error == nil && data != nil {
                 do {
                     let pokemonList = try? JSONDecoder().decode([Pokemon].self, from: data!)
+                    FunctionConstants.shared.logMessage(message: "Request: \(String(describing: data))")
                     self.dataArray = pokemonList!
-                    FunctionConstants.shared.logMessage(message: "Request: \(String(describing: pokemonList))")
                 }
                 catch {
                     FunctionConstants.shared.logMessage(message: "Error: \(error)")
@@ -44,5 +44,14 @@ class ListPokemonViewModel {
             }
         }
         .resume()
+    }
+}
+
+extension Data {
+    func datafilter(removeString string: String) -> Data? {
+        let dataString = String(data:self, encoding: .utf8)
+        let parsedData = dataString?.replacingOccurrences(of: string, with: "")
+        guard let data = parsedData?.data(using: .utf8) else { return nil }
+        return data
     }
 }
