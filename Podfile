@@ -4,5 +4,7 @@
 target 'Pokedex-iOS' do
   
   use_frameworks!
+  pod 'Kingfisher', '~> 7.0'
+  pod 'Alamofire', '~> 5.5'
 
 end
